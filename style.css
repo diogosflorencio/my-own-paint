@@ -4,8 +4,5 @@ body {
 .tela canvas {
     display: block;
     border:  solid 1px rgb(255, 0, 0);
-    margin: 0 auto;
-    width: 1000px;
-    height: 500px;
-    
+    margin: 0 auto;    
 }

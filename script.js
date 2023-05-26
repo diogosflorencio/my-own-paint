@@ -3,7 +3,9 @@ var tela = document.querySelector('canvas');
 var pincel = tela.getContext('2d');
 
 pincel.fillStyle = 'white';
-pincel.fillRect(0, 0, 600, 400);
+pincel.fillRect(0, 0, 1000, 500);
+
+
 /*fim da definição de tela e pincel*/
 
 /*funções*/
