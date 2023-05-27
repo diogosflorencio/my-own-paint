@@ -1,7 +1,7 @@
 body {
     background: rgb(209, 201, 201);
 }
-.tela canvas {
+.tela .painel {
     display: block;
     border:  solid 1px rgb(255, 0, 0);
     margin: 0 auto;    

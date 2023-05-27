@@ -8,6 +8,10 @@ pincel.fillRect(0, 0, 1000, 500);
 
 /*fim da definição de tela e pincel*/
 
+/* definindo botao */
+botao = document.querySelector('button')
+/*fim da definição*/
+
 /*funções*/
 function desenhaBolinha(evento){
     if(desenha){
@@ -25,6 +29,10 @@ function desenhaTrue(){
 function desenhaFalse(){
     desenha = false;
 }
+function ativaVibrar(){
+    window.navigator.vibrate(2000);
+    console.log('vibrando');
+}
 /*function limparTela(){
     pincel.reset();
     pincel.fillStyle = 'lightgrey';
@@ -36,7 +44,7 @@ function desenhaFalse(){
 }
 limparTela() //fazer depois*/
 
-
+botao.onclick = ativaVibrar;
 tela.onmousemove = desenhaBolinha;
 tela.onmousedown = desenhaTrue;
 tela.onmouseup = desenhaFalse;
